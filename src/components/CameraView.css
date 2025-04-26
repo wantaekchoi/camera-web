@@ -1,0 +1,46 @@
+.controls {
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.pixel-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.preview-container {
+  position: relative;
+}
+
+.preview-canvas {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  background: #222;
+  image-rendering: pixelated;
+}
+
+.hidden-video {
+  display: none;
+}
+
+.error-message {
+  color: #ff4444;
+  padding: 10px;
+  border: 1px solid #ff4444;
+  border-radius: 4px;
+}
